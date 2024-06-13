@@ -350,10 +350,10 @@ button, a { transition: var(--transition); }
   #HERO
 \*-----------------------------------*/
 
-.hero { padding-top: 120px; }
+.hero { /*padding-top: 120px;*/ }
 
 .hero-title {
-  max-width: 20ch;
+  /*max-width: 20ch;*/
   margin-bottom: 15px;
 }
 
@@ -959,7 +959,7 @@ button, a { transition: var(--transition); }
 
   .hero {
     position: relative;
-    min-height: 85vh;
+    /*min-height: 85vh;*/
     display: flex;
     align-items: center;
     z-index: 1;
@@ -1142,7 +1142,7 @@ button, a { transition: var(--transition); }
    * HERO
    */
 
-  .hero { min-height: 100vh; }
+  .hero { /*min-height: 100vh;*/ }
 
   .hero-banner {
     left: auto;
