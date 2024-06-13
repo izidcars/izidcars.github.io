@@ -803,9 +803,11 @@ button, a { transition: var(--transition); }
 .footer-list:last-child > li:first-child { column-span: all; }
 
 .footer-bottom {
+  /*
   background: var(--gradient);
   border: 1px solid var(--white);
   border-radius: var(--radius-18) var(--radius-18) 0 0;
+  */
   padding: 20px;
 }
 
@@ -1027,7 +1029,7 @@ button, a { transition: var(--transition); }
     justify-content: space-between;
     align-items: center;
     padding-block: 30px;
-    box-shadow: var(--shadow-1);
+    /*box-shadow: var(--shadow-1);*/
   }
 
   .social-list { margin-bottom: 0; }
